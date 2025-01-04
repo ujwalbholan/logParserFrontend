@@ -4,7 +4,7 @@ const GeneraterLog = () => {
   
       const handleGenerateAndDownloadLog = async () => {
     try {
-      const response = await axios.get("http://localhost:8080/generate-log", {
+      const response = await axios.get("https://logparserbackend-1.onrender.com/generate-log", {
         responseType: "blob", 
       });
 

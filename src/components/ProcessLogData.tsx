@@ -25,7 +25,7 @@ const ProcessLogData = () => {
         log: line.trim(),
       }));
 
-      const response = await axios.post("http://localhost:8080/process-logs", logJson);
+      const response = await axios.post("https://logparserbackend-1.onrender.com/process-logs", logJson);
 
       if (response.data.errors) {
         setErrors(response.data.errors);
