@@ -1,11 +1,15 @@
-# React + TypeScript + Vite
+# log parser 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+##Overview
 
-Currently, two official plugins are available:
+ log parser is a basic log parsing and alerting system designed to process log files from security systems like SIEM (Security Information and Event Management) or other tools. It scans log files for specific patterns, such as error messages or suspicious activities, and generates alerts when such patterns are detected.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+##Features
+Parses log files to detect predefined suspicious patterns.
+Generates alerts when patterns like "failed login," "unauthorized access," or "malicious activity detected" are found.
+Outputs alerts with timestamps for quick review.
+Easy-to-use system for analyzing security logs.
 
 ## Expanding the ESLint configuration
 
