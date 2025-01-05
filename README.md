@@ -9,8 +9,12 @@ Additionally, the interface allows users to upload the generated log file back i
 
 This project demonstrates my ability to handle both frontend and backend development. The frontend, built using __React, is deployed on Vercel__, while the backend, developed with __Java Spring Boot, is hosted on Render__. This setup highlights my skills in creating a full-stack application and managing deployment across different platforms.
 
-[visit the page](https://log-parser-frontend.vercel.app/) 
+[visit the page](https://log-parser-frontend.vercel.app/)
 
+## The whole process of system
+When the user clicks the Generate Log button, a request is sent to the backend, where the generate-log controller handles the request. This controller processes the request and creates a logger.log file, which is then downloaded to the user's local machine.
+
+Afterward, the user can upload the generated log file back to the system and click the Analyze button. This triggers a request to the backend, directed to the process-log controller. The controller processes the uploaded log file, identifies error logs, and sends the results back to the frontend. The frontend then displays the extracted error logs in a user-friendly format.
 ### Features
  - Parses log files to detect predefined suspicious patterns.
  - Generates alerts when patterns like "failed login," "unauthorized access," or "malicious activity detected" are    found.
