@@ -26,14 +26,17 @@
 1. Clone the repository:
    ```bash
    https://github.com/ujwalbholan/logParserFrontend.git
+
 2 . change directory:
-    ```bash
+    ```
     cd fileName
+
 3 . install npm:
-    ```bash
+    ```
     npm Install
+
 4 . run the file:
-    ```bash
+    ```
     npm run dev
 
 
@@ -45,7 +48,7 @@
     2025-01-04 11:15:00 - Failed login attempt by user admin
 
 ## 3 outpur Example:
- ```
+   ``` 
      ALERT: UNAUTHORIZED ACCESS DETECTED AT 2025-01-04 10:45:00
      ALERT: MALICIOUS ACTIVITY DETECTED AT 2025-01-04 11:00:00
      ALERT: FAILED LOGIN DETECTED AT 2025-01-04 11:15:00
