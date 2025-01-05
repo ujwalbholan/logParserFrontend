@@ -1,7 +1,14 @@
 # log parser 
 
 ## Overview
- log parser is a basic log parsing and alerting system designed to process log files from security systems like SIEM (Security Information and Event Management) or other tools. It scans log files for specific patterns, such as error messages or suspicious activities, and generates alerts when such patterns are detected.
+ log parser is a basic log parsing and alerting system designed to process log files from security systems like SIEM (Security Information and Event Management) or other tools. It scans log files for specific patterns, such as error messages or suspicious activities, and generates alerts when such patterns are detected.<br>
+
+ In this project, I have implemented both the frontend and backend components to achieve a seamless log parser and alart system. The frontend provides a user-friendly interface with a button to generate a __logger.log__ file. Upon clicking the button, the log file is automatically downloaded to the user's local machine.
+
+Additionally, the interface allows users to upload the generated log file back into the system. Once the file is uploaded, the application processes it to identify and extract error logs, displaying them as the output. This streamlined process ensures efficient log generation, analysis, and error detection, making it a practical tool for log management.<br>
+
+This project demonstrates my ability to handle both frontend and backend development. The frontend, built using __React, is deployed on Vercel__, while the backend, developed with __Java Spring Boot, is hosted on Render__. This setup highlights my skills in creating a full-stack application and managing deployment across different platforms.
+
 
 ### Features
  - Parses log files to detect predefined suspicious patterns.
