@@ -10,7 +10,6 @@ Additionally, the interface allows users to upload the generated log file back i
 This project demonstrates my ability to handle both frontend and backend development. The frontend, built using __React, is deployed on Vercel__, while the backend, developed with __Java Spring Boot, is hosted on Render__. This setup highlights my skills in creating a full-stack application and managing deployment across different platforms.
 
 [visit the page- frontend](https://log-parser-frontend.vercel.app/) <br>
-[visit - babckend](https://logparserbackend-1.onrender.com/)
 
 ### Features
  - Parses log files to detect predefined suspicious patterns.
