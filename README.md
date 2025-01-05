@@ -1,17 +1,15 @@
 # log parser 
 
-##Overview
-
+## Overview
  log parser is a basic log parsing and alerting system designed to process log files from security systems like SIEM (Security Information and Event Management) or other tools. It scans log files for specific patterns, such as error messages or suspicious activities, and generates alerts when such patterns are detected.
 
-
-##Features
+### Features
  - Parses log files to detect predefined suspicious patterns.
  - Generates alerts when patterns like "failed login," "unauthorized access," or "malicious activity detected" are    found.
  - Outputs alerts with timestamps for quick review.
  - Easy-to-use system for analyzing security logs.
 
-###Table of Contents
+### Table of Contents
  1 Installation
  2 Input Format
  3 Output Example
@@ -28,15 +26,15 @@
      https://github.com/ujwalbholan/logParserFrontend.git
 
 2 . change directory:
-    ``` 
+    ```bash 
      cd fileName
 
 3 . install npm:
-    ```
+    ```bash
      npm Install
 
 4 . run the file:
-    ```
+    ```bash
      npm run dev
 
 
