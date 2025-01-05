@@ -28,15 +28,15 @@
    https://github.com/ujwalbholan/logParserFrontend.git
 
 2 . change directory:
-    ```
+    ```bash
     cd fileName
 
 3 . install npm:
-    ```
+    ```bash
     npm Install
 
 4 . run the file:
-    ```
+    ```bash
     npm run dev
 
 
@@ -45,10 +45,10 @@
     2025-01-04 10:30:00 - User login successful
     2025-01-04 10:45:00 - Unauthorized access attempt detected
     2025-01-04 11:00:00 - Malicious activity detected in module X
-    2025-01-04 11:15:00 - Failed login attempt by user admin
+    2025-01-04 11:15:00 - Failed login attempt by user admin 
 
 ## 3 outpur Example:
-   ``` 
+   ```bash
      ALERT: UNAUTHORIZED ACCESS DETECTED AT 2025-01-04 10:45:00
      ALERT: MALICIOUS ACTIVITY DETECTED AT 2025-01-04 11:00:00
      ALERT: FAILED LOGIN DETECTED AT 2025-01-04 11:15:00
