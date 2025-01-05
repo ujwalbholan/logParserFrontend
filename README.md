@@ -15,10 +15,9 @@
  1 Installation
  2 Input Format
  3 Output Example
- 4 Code Overview
- 5 Future Enhancements
+ 4 Future Enhancements
 
-##Installation
+## 1 Installation
 
 ### Prerequisites
 - Node.js installed
@@ -26,6 +25,37 @@
 ### Steps to Install
 1. Clone the repository:
    ```bash
-   git clone https://github.com/ujwalbholan/logParserFrontend.git
+   https://github.com/ujwalbholan/logParserFrontend.git
+
+2 . change directory
+    ```bash
+    cd fileName
+
+3 . change directory
+    ```bash
+    npm Install
+
+4 . change directory
+    ```bash
+    npm run dev
 
 
+## 2 input Format
+ ```bash
+    2025-01-04 10:30:00 - User login successful
+    2025-01-04 10:45:00 - Unauthorized access attempt detected
+    2025-01-04 11:00:00 - Malicious activity detected in module X
+    2025-01-04 11:15:00 - Failed login attempt by user admin
+
+## 3 outpur Example
+ ```bash
+  ALERT: UNAUTHORIZED ACCESS DETECTED AT 2025-01-04 10:45:00
+  ALERT: MALICIOUS ACTIVITY DETECTED AT 2025-01-04 11:00:00
+  ALERT: FAILED LOGIN DETECTED AT 2025-01-04 11:15:00
+
+## Future Enhancements
+
+ - i can inhannce the frontend looks more appelinng.
+ - its static i can make it more dynamic.
+ - i can add the automation activities like when the alart is detected then it will send the mail to QA or send the message in the slack so all the developer are aware about the error.
+ 
