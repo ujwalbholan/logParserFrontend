@@ -33,17 +33,11 @@ This project demonstrates my ability to handle both frontend and backend develop
    ```bash
      https://github.com/ujwalbholan/logParserFrontend.git
 
-2 . change directory:
-    ```bash 
-     cd fileName
+2 . change directory: cd fileName
 
-3 . install npm:
-    ```bash
-     npm Install
+3 . install npm: npm Install
 
-4 . run the file:
-    ```bash
-     npm run dev
+4 . run the file: npm run dev
 
 
 ## 2 input Format:
