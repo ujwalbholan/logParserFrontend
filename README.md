@@ -11,7 +11,21 @@
  - Outputs alerts with timestamps for quick review.
  - Easy-to-use system for analyzing security logs.
 
+###Table of Contents
+ 1 Installation
+ 2 Input Format
+ 3 Output Example
+ 4 Code Overview
+ 5 Future Enhancements
 
+##Installation
 
+### Prerequisites
+- Node.js installed
+
+### Steps to Install
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/ujwalbholan/logParserFrontend.git
 
 
