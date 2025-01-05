@@ -27,34 +27,33 @@
    ```bash
    https://github.com/ujwalbholan/logParserFrontend.git
 
-2 . change directory
+2 . change directory:
     ```bash
     cd fileName
 
-3 . change directory
+3 . install npm:
     ```bash
     npm Install
 
-4 . change directory
+4 . run the file:
     ```bash
     npm run dev
 
 
-## 2 input Format
+## 2 input Format:
  ```bash
     2025-01-04 10:30:00 - User login successful
     2025-01-04 10:45:00 - Unauthorized access attempt detected
     2025-01-04 11:00:00 - Malicious activity detected in module X
     2025-01-04 11:15:00 - Failed login attempt by user admin
 
-## 3 outpur Example
+## 3 outpur Example:
  ```bash
-  ALERT: UNAUTHORIZED ACCESS DETECTED AT 2025-01-04 10:45:00
-  ALERT: MALICIOUS ACTIVITY DETECTED AT 2025-01-04 11:00:00
-  ALERT: FAILED LOGIN DETECTED AT 2025-01-04 11:15:00
+     ALERT: UNAUTHORIZED ACCESS DETECTED AT 2025-01-04 10:45:00
+     ALERT: MALICIOUS ACTIVITY DETECTED AT 2025-01-04 11:00:00
+     ALERT: FAILED LOGIN DETECTED AT 2025-01-04 11:15:00
 
-## Future Enhancements
-
+## 4 Future Enhancements:
  - i can inhannce the frontend looks more appelinng.
  - its static i can make it more dynamic.
  - i can add the automation activities like when the alart is detected then it will send the mail to QA or send the message in the slack so all the developer are aware about the error.
